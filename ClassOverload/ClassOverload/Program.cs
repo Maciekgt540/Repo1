@@ -10,16 +10,23 @@ namespace ClassOverload
     {
         static void Main(string[] args)
         {
-            Stopper Stbl = new Stopper(); //blokada wyłączenia konsoli po wykonaniu programu...
+
+            Overload Over = new Overload();
+            Overload Over2 = new Overload(4, 10, 30);
+
+            Console.WriteLine("a*b*c:");
 
 
 
+            Console.WriteLine(Over2.Multiply());
+            Console.WriteLine(Over.Multiply());
+
+            Console.WriteLine(Overload.Add(1, 2, 3, 4));
 
 
+            Console.ReadKey();
 
 
-
-            Stbl.Ret(); //blokada wyłączenia konsoli po wykonaniu programu...
         }
     }
 }
