@@ -10,7 +10,16 @@ namespace ClassOverload
     {
         static void Main(string[] args)
         {
-            Console.ReadKey();
+            Stopper Stbl = new Stopper(); //blokada wyłączenia konsoli po wykonaniu programu...
+
+
+
+
+
+
+
+
+            Stbl.Ret(); //blokada wyłączenia konsoli po wykonaniu programu...
         }
     }
 }
